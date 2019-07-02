@@ -9,8 +9,9 @@ for i in range(1,len(list1)):
   if(val in list1[i]):
     continue
   else:
+    
+    val=val[:length-1]
     length-=1
-    val=val[:length]
 print(val)
     
     
