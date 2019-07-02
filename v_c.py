@@ -1,5 +1,5 @@
 n=input()
-v=['a','e','i','o','u']
+v=['a','e','i','o','u','A','E','I','O','U']
 if(not n.isalnum()):
   print("Invalid")
 elif(n in v):
