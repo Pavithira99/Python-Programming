@@ -3,6 +3,6 @@ if(n.isalnum()):
   if(n.isdigit()):
     print("No")
   else:
-    print("Yes")
+    print("Alphabet")
 else:
   print("No")
