@@ -1,7 +1,7 @@
 def odd(n):
   if(n%2==0):
     return False
-  retuen True
+  return True
 def even(n):
   if(n%2==0):
     return True
