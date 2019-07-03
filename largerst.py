@@ -1,3 +1,4 @@
+num=int(input())
 n=list(map(int,input().split("")))
 n.sort(reverse=True)
 new=""
