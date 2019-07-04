@@ -6,8 +6,11 @@ for i in arr2:
   if(i not in arr1):
     print("NO")
     break
-  else:
-    flag=1
- if(flag==1):
+  elif(i in arr1):
+    list1.append(i)
+if(list1==arr2):
   print("YES")
+
+    
+    
    
