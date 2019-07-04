@@ -1,5 +1,5 @@
 n=list(map(str,input().split(" ")))
-
+list1=[]
 for i in n:
   list1.append(i.reverse())
 new=""
