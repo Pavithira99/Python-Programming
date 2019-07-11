@@ -9,7 +9,7 @@ if(x<y):
     if(l1[i]==l2[i]):
       continue
     else:
-      f=i
+      f=i+1
       break
   print(y-f)
 else:
@@ -17,7 +17,7 @@ else:
     if(l1[i]==l2[i]):
       continue
     else:
-      f=i
+      f=i+1
       break
   print(x-f)
   
