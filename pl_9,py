@@ -4,7 +4,7 @@ def prime(n):
       return False
     return True
 n=list(map(int,input().split(" ")))
-for i in range(0,n[1]):
+for i in range(n[0],n[1]):
   if(prime(i));
     list1.append(i):
 new=""
