@@ -6,7 +6,7 @@ def prime(n):
 count=0
 n=list(map(int,input().split(" ")))
 list1=[]
-for i in range(n[0],n[1]):
+for i in range(n[0],n[1]+1):
   if(prime(i)):
     count+=1
 print(count)
