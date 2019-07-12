@@ -7,7 +7,7 @@ n=list(map(int,input().split(" ")))
 list1=[]
 for i in range(n[0],n[1]):
   if(prime(i)):
-    list1.append(i):
+    list1.append(i)
 new=""
 new=[str(i) for i in list1]
 res=" ".join(new)
