@@ -4,8 +4,9 @@ def prime(n):
       return False
     return True
 n=list(map(int,input().split(" ")))
+list1=[]
 for i in range(n[0],n[1]):
-  if(prime(i));
+  if(prime(i)):
     list1.append(i):
 new=""
 new=[str(i) for i in list1]
