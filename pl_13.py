@@ -3,5 +3,5 @@ sum=0
 while(n>0):
   rem=n%10
   n=n/10
-  sum+=rem**2
+  sum=sum+(rem*rem)
 print(sum)
