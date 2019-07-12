@@ -1,0 +1,5 @@
+n=input()
+n=list(n)
+n.append('.')
+res="".join(n)
+print(res)
