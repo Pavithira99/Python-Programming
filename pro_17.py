@@ -1,5 +1,6 @@
 n=list(map(int,input().split()))
 arr=list(map(int,input().split()))
+arr.append(0)
 flag=1
 for i in range(0,n[0]):
   if(arr[i]+arr[i+1]==n[1]):
