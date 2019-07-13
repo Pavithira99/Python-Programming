@@ -2,7 +2,7 @@ n=list(map(int,input().split()))
 arr=list(map(int,input().split()))
 arr.append(0)
 flag=1
-for i in range(0,n[0]):
+for i in range(0,n[0]-1):
   if(arr[i]+arr[i+1]==n[1]):
     print("yes")
     flag=0
