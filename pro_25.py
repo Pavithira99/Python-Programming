@@ -1,6 +1,6 @@
-nn=int(input())
-xx=list(map(int,input().split(" ")))
+nnn=int(input())
+xxx=list(map(int,input().split(" ")))
 list1=[]
-for i in xx:
-  list1.append(xx.count(i))
+for i in xxx:
+  list1.append(xxx.count(i))
 print(max(list1))
